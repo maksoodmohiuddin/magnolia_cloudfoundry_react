@@ -7,17 +7,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Hello.</h1>
+        <p> This is a Magnolia Labs private cloud reference application. </p>
+        <p> This app built using React JS and deployed in Pivotal Cloud Foundry </p>
       </header>
     </div>
   );

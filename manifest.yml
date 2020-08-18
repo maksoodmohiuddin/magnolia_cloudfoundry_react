@@ -1,11 +1,11 @@
 applications:
 - name: magnolia_cloudfoundry_react
-  disk_quota: 300MB
+  disk_quota: 1G
   instances: 1
-  memory: 128MB
+  memory: 256MB
   buildpacks:
   - staticfile_buildpack
   routes:
-  - route: magnoliaspa.cfapps.io
+  - route: magnoliareact.cfapps.io
   stack: cflinuxfs3
   path: build/
